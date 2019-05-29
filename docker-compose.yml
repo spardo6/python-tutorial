@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  develop:
+    image: docker-python:develop
+    container_name: docker-python-develop
+    build:
+      context: .
+      dockerfile: dev.dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/usr/src/app
+    stdin_open: true
+    tty: true
+    command: "python manage.py runserver 0.0.0.0:8000"
