@@ -10,6 +10,10 @@
 
 - Execute `docker-compose build` to install **docker images**.
 
+- Import the postman file to test the API.
+
+> `Python Tutorial.postman_collection.json`
+
 ## Run develop environment
 
 - Execute `docker-compose up -d develop` to init **docker container**.
