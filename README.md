@@ -8,7 +8,7 @@
 
 - Open terminal and change directory to root project.
 
-- Execute `docker-compose build` to install **docker images**.
+- Execute `docker-compose build` to install **docker images** *(Wait a few seconds for the command to complete)*.
 
 - Import the postman file to test the API.
 
